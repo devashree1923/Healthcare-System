@@ -1,0 +1,19 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: #EEEEEE;
+    border: transparent;
+}
+.center h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}

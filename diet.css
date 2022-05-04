@@ -1,0 +1,116 @@
+.logo{
+    color:#F9B208;
+	text-align: center;
+	
+	
+    
+    
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #1B1A17
+    
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #DDDDDD;
+}
+
+.nav .links .mainlink{
+    color: #EEEEEE;
+}
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+
+
+.calorie-form{
+	align-items: center;
+}
+.food {
+	width: 50px;
+	height: 50px;
+}
+
+.delete {
+	width: 25px;
+	height: 20px;
+}
+
+
+
+
+.tableBox {
+	border-radius: 35px;
+	background-color: #e62854;
+	padding: 25px;
+	margin-right:60px;
+}
+
+button {
+	background-color: #000000;
+}
+
+#t1 {
+	visibility: hidden;
+}
+
+input {
+	color: #000000;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.box {
+	background-color: #1b1b1b;
+	border-radius: 50px;
+	padding: 50px;
+	color: white;
+}
+
+.form-group {
+	padding:20px;
+	font-size: larger;
+	margin-right: 40px;
+}
+
+
+.meal{
+	display: flex;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.form-sub{
+	border-radius: 10px;
+	margin:20px;
+	padding:10px;
+
+}
+html, body{
+	color: #1B1A17;
+	background: url("https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/04/diagonal-split-1.png?fit=1200%2C600&ssl=1") no-repeat center/ cover;
+	background-color: #000000;
+}
